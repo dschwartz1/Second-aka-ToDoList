@@ -337,6 +337,10 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="doneButton" destination="Mcl-3A-vaV" id="3T6-h8-QFO"/>
+                        <outlet property="textField" destination="rz6-dV-nUh" id="NKr-Ne-SMX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
                 <exit id="KUq-8Z-nIC" userLabel="Exit" sceneMemberID="exit"/>
