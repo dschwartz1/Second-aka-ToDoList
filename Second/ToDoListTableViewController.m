@@ -11,7 +11,7 @@
 
 @interface ToDoListTableViewController ()
 
-@property NSMutableArray *toDoItems;
+@property NSMutableArray *toDoItems;   // This is a private property since in the .m vs .h
 
 @end
 
@@ -36,7 +36,7 @@
      
 }
 
-- (IBAction)unwindToList:(UIStoryboardSegue *)segue
+- (IBAction)unwindToList:(UIStoryboardSegue *)segue //can name unwindToList anything we want
 {
     
 }
@@ -45,6 +45,7 @@
     [super viewDidLoad];
     
     self.toDoItems = [[NSMutableArray alloc] init];
+    
     [self loadInitialData];
     
     // Uncomment the following line to preserve selection between presentations.
@@ -74,7 +75,7 @@
     return [self.toDoItems count];
 }
 
- \
+
 - (UITableViewCell *)tableView:(UITableView *)tableView 
 cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
@@ -84,6 +85,7 @@ cellForRowAtIndexPath:(NSIndexPath *)indexPath
     
     ToDoItem *toDoItem = [self.toDoItems objectAtIndex:indexPath.row];
     cell.textLabel.text = toDoItem.itemName;
+    
     if (toDoItem.completed) {
         cell.accessoryType = UITableViewCellAccessoryCheckmark;
     } else {
@@ -140,7 +142,7 @@ cellForRowAtIndexPath:(NSIndexPath *)indexPath
 #pragma mark - Table view delegate
 
 - (void)tableView:(UITableView *)tableView
-didDeselectRowAtIndexPath:(NSIndexPath *)indexPath
+didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     
     [tableView deselectRowAtIndexPath:indexPath animated:NO];
