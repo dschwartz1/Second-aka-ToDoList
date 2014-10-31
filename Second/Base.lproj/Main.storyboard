@@ -288,7 +288,7 @@
                             <outlet property="delegate" destination="hvv-Dp-VXb" id="nCO-dF-yhk"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="My Super To Do List" id="1Du-BF-W5r">
+                    <navigationItem key="navigationItem" title="Big COOL List - Impressed?" id="1Du-BF-W5r">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="Hvp-Wh-v15">
                             <connections>
                                 <segue destination="rph-fF-FGG" kind="presentation" id="ctX-9I-iyR"/>

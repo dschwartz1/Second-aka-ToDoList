@@ -20,7 +20,7 @@
 
 - (void) loadInitialData {      /* would normally do this from peristent store */
     ToDoItem *item1 = [[ToDoItem alloc] init];
-    item1.itemName = @"Buy Les Paul 1959";
+    item1.itemName = @"Buy Ethan's video game";
     [self.toDoItems addObject:item1];
     
     ToDoItem *item2 = [[ToDoItem alloc] init];
@@ -28,11 +28,11 @@
     [self.toDoItems addObject:item2];
      
     ToDoItem *item3 = [[ToDoItem alloc] init];
-    item3.itemName = @"Buy eggs";
+    item3.itemName = @"Pick up my road bike";
     [self.toDoItems addObject:item3];
      
     ToDoItem *item4 = [[ToDoItem alloc] init];
-    item4.itemName = @"Re-tube Dr. Z amp";
+    item4.itemName = @"Announce Bender gig on web site";
     [self.toDoItems addObject:item4];
      
 }
