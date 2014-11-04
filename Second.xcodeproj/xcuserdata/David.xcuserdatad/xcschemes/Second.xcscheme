@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "637C67B219D641FF00CC1C14"
-               BuildableName = "Second.app"
-               BlueprintName = "ToDoProto"
-               ReferencedContainer = "container:ToDoProto.xcodeproj">
+               BuildableName = "ToDoProtoNew.app"
+               BlueprintName = "Second"
+               ReferencedContainer = "container:Second.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "637C67CB19D641FF00CC1C14"
-               BuildableName = "SecondTests.xctest"
-               BlueprintName = "ToDoProtoTests"
-               ReferencedContainer = "container:ToDoProto.xcodeproj">
+               BuildableName = "ToDoProtoNewTests.xctest"
+               BlueprintName = "SecondTests"
+               ReferencedContainer = "container:Second.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "637C67CB19D641FF00CC1C14"
-               BuildableName = "SecondTests.xctest"
-               BlueprintName = "ToDoProtoTests"
-               ReferencedContainer = "container:ToDoProto.xcodeproj">
+               BuildableName = "ToDoProtoNewTests.xctest"
+               BlueprintName = "SecondTests"
+               ReferencedContainer = "container:Second.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,9 +57,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "637C67B219D641FF00CC1C14"
-            BuildableName = "Second.app"
-            BlueprintName = "ToDoProto"
-            ReferencedContainer = "container:ToDoProto.xcodeproj">
+            BuildableName = "ToDoProtoNew.app"
+            BlueprintName = "Second"
+            ReferencedContainer = "container:Second.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "637C67B219D641FF00CC1C14"
-            BuildableName = "Second.app"
-            BlueprintName = "ToDoProto"
-            ReferencedContainer = "container:ToDoProto.xcodeproj">
+            BuildableName = "ToDoProtoNew.app"
+            BlueprintName = "Second"
+            ReferencedContainer = "container:Second.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,9 +94,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "637C67B219D641FF00CC1C14"
-            BuildableName = "Second.app"
-            BlueprintName = "ToDoProto"
-            ReferencedContainer = "container:ToDoProto.xcodeproj">
+            BuildableName = "ToDoProtoNew.app"
+            BlueprintName = "Second"
+            ReferencedContainer = "container:Second.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
